@@ -26,3 +26,13 @@ a button to send it, and a button to disconnect from the server.
 
 UI/UX
 1. Feel free to design/define your own UI and UX
+
+### Installing
+
+Run "npm run build" in ..CompanyChat\ChatClient
+
+```
+npm run build
+```
+
+Set multiple startup projects in Visual Studio to WebApi and ChatClient
