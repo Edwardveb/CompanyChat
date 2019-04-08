@@ -29,7 +29,7 @@ UI/UX
 
 ### Installing
 
-Run "npm run build" in ..CompanyChat\ChatClient
+Run "npm run build" in ...CompanyChat\ChatClient
 
 ```
 npm run build
