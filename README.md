@@ -2,7 +2,9 @@
 .NET Core, Signalr, React SPA Chat Client
 
 Ubiquiti Networks Latvia Full Stack Chat Task
-Description
+
+### Description
+
 In this task, you need to create a chatroom web app which allow multiple users login/send message/receive message simultaneously.
 The task is to create a chat client and server application. Create separate projects for server
 and client, and submit your solution as GitHub repository links. Detailed requirements follow.
