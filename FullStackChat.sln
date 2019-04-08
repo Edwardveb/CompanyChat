@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{BDE0C927-46E8-4145-8913-F68CF0BA91AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{3D96515C-C6D5-4AF1-BAD5-FE4B9DCB4E13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{5B41F45A-82B8-41C0-BD6C-6CBD394CC0CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F861DA24-230A-40F9-8A33-6875643CDD93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{17819246-D5C4-4178-A8D5-73C3B786A58C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{84E04971-4599-49CA-95B1-E29BA81EC8C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE0C927-46E8-4145-8913-F68CF0BA91AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE0C927-46E8-4145-8913-F68CF0BA91AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE0C927-46E8-4145-8913-F68CF0BA91AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE0C927-46E8-4145-8913-F68CF0BA91AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D96515C-C6D5-4AF1-BAD5-FE4B9DCB4E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D96515C-C6D5-4AF1-BAD5-FE4B9DCB4E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D96515C-C6D5-4AF1-BAD5-FE4B9DCB4E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D96515C-C6D5-4AF1-BAD5-FE4B9DCB4E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E04971-4599-49CA-95B1-E29BA81EC8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E04971-4599-49CA-95B1-E29BA81EC8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E04971-4599-49CA-95B1-E29BA81EC8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E04971-4599-49CA-95B1-E29BA81EC8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDE0C927-46E8-4145-8913-F68CF0BA91AB} = {5B41F45A-82B8-41C0-BD6C-6CBD394CC0CF}
+		{3D96515C-C6D5-4AF1-BAD5-FE4B9DCB4E13} = {F861DA24-230A-40F9-8A33-6875643CDD93}
+		{84E04971-4599-49CA-95B1-E29BA81EC8C5} = {17819246-D5C4-4178-A8D5-73C3B786A58C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45EB88E5-18BD-4903-9E18-EB212A063672}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://edwardsrandomstuff.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ChatClient\\ChatClient.csproj
+		SccProjectTopLevelParentUniqueName1 = FullStackChat.sln
+		SccProjectName1 = ChatClient
+		SccLocalPath1 = ChatClient
+		SccProjectUniqueName2 = WebApi\\WebApi.csproj
+		SccProjectTopLevelParentUniqueName2 = FullStackChat.sln
+		SccProjectName2 = WebApi
+		SccLocalPath2 = WebApi
+		SccProjectUniqueName3 = Extensions\\Extensions.csproj
+		SccProjectTopLevelParentUniqueName3 = FullStackChat.sln
+		SccProjectName3 = Extensions
+		SccLocalPath3 = Extensions
+	EndGlobalSection
+EndGlobal
