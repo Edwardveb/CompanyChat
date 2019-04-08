@@ -1,5 +1,5 @@
 # CompanyChat
-.NET Core, Signalr, React SPA Chat Client
+.NET Core, Signalr, CORS, React SPA Chat Client
 
 Ubiquiti Networks Latvia Full Stack Chat Task
 
